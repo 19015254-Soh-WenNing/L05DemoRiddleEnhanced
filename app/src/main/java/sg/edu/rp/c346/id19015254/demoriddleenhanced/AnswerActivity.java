@@ -23,7 +23,7 @@ public class AnswerActivity extends AppCompatActivity {
 
         if (i == intentReceived.getStringExtra("Question1"))
         {
-            tvAnswer.setText("Q1 answer is:Queue ");
+            tvAnswer.setText("Q1 answer is: Queue");
         }
         else
         {
