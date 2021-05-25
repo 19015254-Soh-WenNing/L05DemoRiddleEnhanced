@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, AnswerActivity.class);
-                intent.putExtra("Question1", "Q1");
+                intent.putExtra("Question", "Q1 answer is: Queue");
                 startActivity(intent);
             }
         });
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(MainActivity.this, AnswerActivity.class);
-                intent.putExtra("Question2", "Q2");
+                intent.putExtra("Question", "Q2 answer is: Gone");
                 startActivity(intent);
             }
         });
